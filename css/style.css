@@ -1,6 +1,18 @@
+body {
+  font-family: arial,sans-serif;
+  font-size: small;
+}
+
 li {
   display: inline-block;
   padding: 5px;
+}
+span {
+  display:inline-block;
+  background-color:#4285f4;
+  color:white;
+  padding: 7px 12px 7px 12px;
+  font-size: 13px;
 }
 .header {
   background-color: yellow;
@@ -31,7 +43,6 @@ li {
 #btn {
   color: #757575;
   background-color: #f2f2f2;
-  font-family: arial,sans-serif;
   font-size: 13px;
   font-weight: bold;
   height: 36px; width: 120px;
@@ -60,6 +71,7 @@ img {
   border: 5px solid red;
   position: absolute;
   bottom: 0px;
+  background: #f2f2f2;
 }
 
 #left {
