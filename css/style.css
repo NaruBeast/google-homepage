@@ -67,7 +67,7 @@ img {
 }
 
 .footer {
-  width: 98%;
+  width: 100%;
   border: 5px solid red;
   position: absolute;
   bottom: 0px;
@@ -76,12 +76,16 @@ img {
 
 #left {
   border: 2px solid blue;
+  /*position: absolute;*/
+  /*left: 0px;*/
   display: inline-block;
   float: left;
 }
 
 #right {
+  /*right:0px;*/
   display: inline-block;
+  /*position: absolute;*/
   float: right;
 }
 
