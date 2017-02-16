@@ -1,9 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
   font-family: arial,sans-serif;
   font-size: small;
 }
 
 li {
+  
   display: inline-block;
   padding: 5px;
 }
@@ -15,8 +20,9 @@ span {
   font-size: 13px;
 }
 .header {
+/*	position: absolute;*/
   background-color: yellow;
-  margin-left: 1100px;
+ text-align: right;
   /*margin-top:-5px;
   float: right;*/
 }
@@ -48,6 +54,7 @@ span {
   height: 36px; width: 120px;
   border: 1px solid #f2f2f2;
   padding: 5px;
+  margin-bottom: 5px;
 }
 
 #btn:hover {
@@ -68,25 +75,28 @@ img {
 
 .footer {
   width: 100%;
+  height: 40px;
   border: 5px solid red;
   position: absolute;
+  left:0px;
   bottom: 0px;
   background: #f2f2f2;
 }
 
 #left {
   border: 2px solid blue;
-  /*position: absolute;*/
+  position: absolute;
   /*left: 0px;*/
   display: inline-block;
-  float: left;
+  /*float: left;*/
 }
 
 #right {
-  /*right:0px;*/
+  border: 2px solid blue;
+  /*left:800px;*/right:0px;
   display: inline-block;
-  /*position: absolute;*/
-  float: right;
+  position: absolute;
+  /*float: right;*/
 }
 
 
